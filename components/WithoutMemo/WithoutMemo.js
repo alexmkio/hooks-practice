@@ -21,7 +21,10 @@ export default function WithoutMemoComponent() {
         Open your dev tools console and observe that both of the console logs in
         the slowFunction and useEffect which has theme as it&#39;s only
         dependency are run regardless of which bit of state you are updating.
-        That wasn&#39;t happening before.
+        You&#39;ll also notice that since slowFunction now runs every time that
+        you change the theme color that it takes a while for the component to
+        rerender and show this change in theme color. That wasn&#39;t happening
+        before.
       </p>
       <p>Number: {number}</p>
       <p>Doubled number: {doubleNumber}</p>

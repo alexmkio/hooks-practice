@@ -31,6 +31,7 @@ export default function MemoComponent() {
           useMemo
         </a>
       </h2>
+      <p>useMemo returns a memoized value.</p>
       <p>
         Memoization: used primarily to speed up computer programs by storing the
         results of expensive function calls and returning the cached result when

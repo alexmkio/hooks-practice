@@ -4,6 +4,8 @@ import ReducerComponent from '../components/Reducer/Reducer'
 import LazyReducerComponent from '../components/LazyReducer/LazyReducer'
 import MemoComponent from '../components/Memo/Memo'
 import WithoutMemoComponent from '../components/Memo/WithoutMemo'
+import CallbackComponent from '../components/Callback/Callback'
+import WithoutCallbackComponent from '../components/WithoutCallback/WithoutCallback'
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <LazyReducerComponent initialCount={60}/>
         <MemoComponent />
         <WithoutMemoComponent />
+        <CallbackComponent />
+        <WithoutCallbackComponent />
       </main>
     </div>
   )

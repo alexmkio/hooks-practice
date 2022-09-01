@@ -17,6 +17,12 @@ export default function WithoutMemoComponent() {
   return (
     <>
       <h3>Example without useMemo</h3>
+      <p>
+        Open your dev tools console and observe that both of the console logs in
+        the slowFunction and useEffect which has theme as it&#39;s only
+        dependency are run regardless of which bit of state you are updating.
+        That wasn&#39;t happening before.
+      </p>
       <p>Number: {number}</p>
       <p>Doubled number: {doubleNumber}</p>
       <button onClick={() => setNumber(number + 1)}>+ incrementor +</button>

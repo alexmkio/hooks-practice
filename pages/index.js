@@ -7,6 +7,7 @@ import WithoutMemoComponent from '../components/WithoutMemo/WithoutMemo'
 import CallbackComponent from '../components/Callback/Callback'
 import WithoutCallbackComponent from '../components/WithoutCallback/WithoutCallback'
 import RefComponent from '../components/Ref/Ref'
+import CustomHook from '../components/CustomHook/CustomHook'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <CallbackComponent />
         <WithoutCallbackComponent />
         <RefComponent />
+        <CustomHook />
       </main>
     </div>
   )

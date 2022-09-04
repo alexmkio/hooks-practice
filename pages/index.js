@@ -6,6 +6,7 @@ import MemoComponent from '../components/Memo/Memo'
 import WithoutMemoComponent from '../components/WithoutMemo/WithoutMemo'
 import CallbackComponent from '../components/Callback/Callback'
 import WithoutCallbackComponent from '../components/WithoutCallback/WithoutCallback'
+import RefComponent from '../components/Ref/Ref'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <WithoutMemoComponent />
         <CallbackComponent />
         <WithoutCallbackComponent />
+        <RefComponent />
       </main>
     </div>
   )
